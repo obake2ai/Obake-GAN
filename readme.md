@@ -4,7 +4,7 @@ https://arxiv.org/abs/1902.01514
 
 ## How To Use
 1. Reedbush (or別のLinuxサーバー)にアクセス
-2. pyenv状に以下パッケージ (list.txt) をpip install
+2. pyenv上に以下パッケージ (requirements.txt) をpip install
 3. otherGANs/data/直下にデータセット(mnist, cifar10, celeba, …)をDL
 4. train_(データセット名).pyでcondition(バッチサイズ、モデルなど)を設定
 5. (データセット名).run.shをqsub
@@ -20,7 +20,7 @@ https://arxiv.org/abs/1902.01514
 
 ・modelsave_interval（モデル保存の頻度）
 
-・log_interval（log記入の頻度）
+・log_interval（log記入の頻度list.txt）
 
 ・dataset（学習データセット名）
 
