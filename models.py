@@ -1,4 +1,4 @@
-@import torch
+import torch
 import argparse
 import os
 import numpy as np
