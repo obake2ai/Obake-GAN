@@ -17,16 +17,16 @@ opt = easydict.EasyDict({
     'latent_dim': 128,
     'img_size': 512,
     'n_critic': 1,
-    'clip_value': 0.01,
+    'clip_value':21896 0.01,
     'sample_interval': 100,
     'modelsave_interval': 782,
     'log_interval': 100,
     'dataset': 'cifar10',
     'num_filters': 128, #for CNN Discriminator and Generator
     'saveDir' : None,
-    'resume' : 21896,
+    'resume' : None,
     'logIS' : False,
-    'loadDir' : '0328:190125_MTNoiseGenerator2Dv6_512_MTNoiseResNet512_cifar10'
+    'loadDir' : None
 })
 
 _, dataloader = dataset.makeDataloader(opt)
