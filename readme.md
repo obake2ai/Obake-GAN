@@ -7,7 +7,7 @@ https://arxiv.org/abs/1902.01514
 2. pyenv上に以下パッケージ (requirements.txt) をpip install
 3. otherGANs/data/直下にデータセット(mnist, cifar10, celeba, …)をDL
 4. train_(データセット名).pyでcondition(バッチサイズ、モデルなど)を設定
-5. (データセット名).run.shをqsub
+5. (データセット名)run.shをqsub
 
 ## Hyper parameters
 いじるハイパーパラメータは基本的に
