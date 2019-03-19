@@ -18,13 +18,13 @@ opt = easydict.EasyDict({
     'img_size': 32,
     'n_critic': 1,
     'clip_value': 0.01,
-    'sample_interval': 100,
+    'sample_inNoneterval': 100,
     'log_interval': 100,
     'modelsave_interval': 1, #per epoch
     'dataset': 'mnist',
     'num_filters': 128,
     'saveDir' : None,
-    'resume' : None,
+    'resume' : 0,
     'logIS' : True,
     'loadDir' : None
 })
