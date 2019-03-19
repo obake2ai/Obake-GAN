@@ -24,7 +24,7 @@ opt = easydict.EasyDict({
     'dataset': 'cifar10',
     'num_filters': 128, #for CNN Discriminator and Generator
     'saveDir' : None,
-    'resume' : None,
+    'resume' : 0,
     'logIS' : False,
     'loadDir' : None
 })
