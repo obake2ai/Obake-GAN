@@ -6,10 +6,11 @@ https://arxiv.org/abs/1902.01514
 1. Reedbush (or別のLinuxサーバー)にアクセス
 2. pyenv上に以下パッケージ (requirements.txt) をpip install
 3. otherGANs/data/直下にデータセット(mnist, cifar10, celeba, …)をDL
+　　cifar10, mnistならデータがなくてもdataset_tool.pyがダウンロードしてくれる（はず）
 4. train_(データセット名).pyでcondition(バッチサイズ、モデルなど)を設定
-5. (データセット名)run.shをqsub
+5. (データセット名)_run.shをqsub（スパコン以外ならシェルの中身をそのまま実行すればおそらくおっけい）
 
-## Hyper parameters
+## Hyper Parameters
 いじるハイパーパラメータは基本的に
 
 ・batchsize
